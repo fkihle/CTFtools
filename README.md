@@ -8,6 +8,20 @@ Be in the root folder and run your desired script with the following command (wi
 python -m <FOLDER_NAME>.<TOOL_NAME> <flags and arguments>
 ```
 
+## TOOLS Overview
+
+- **Network Recon**
+  - Search_and_Sum_Ports.py
+
+## TOOLS Explained
+
+#### Network_Recon/Search_and_Sum_Ports.py
+```shell
+python -m Network_Recon.Search_and_Sum_Ports -u TARGET_URL -p TARGET_PORTRANGE
+```
+
+This tool uses *nmap* to check which ports are open in the port range specified at the target url specified. It uses TCP connections to achieve this. The open ports are summed up and outputed to screen as well as every open port and the service running on the port.
+
 ## Ideas for tools
 
 Please create a New Issue and I'll have a crack at it when I have time.
