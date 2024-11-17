@@ -20,6 +20,8 @@ python -m <FOLDER_NAME>.<TOOL_NAME> <flags and arguments>
 python -m Network_Recon.Search_and_Sum_Ports -u TARGET_URL -p TARGET_PORTRANGE
 ```
 
+Prerequisites: [NMAP](https://nmap.org/download)
+
 This tool uses *nmap* to check which ports are open in the port range specified at the target url specified. It uses TCP connections to achieve this. The open ports are summed up and outputed to screen as well as every open port and the service running on the port.
 
 ## Ideas for tools
